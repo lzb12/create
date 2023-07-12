@@ -1,0 +1,3 @@
+# create_silences
+使用crontab定时添加
+注意脚本使用的是utc时间，crontab的是按照中国上海时间进行执行的，自动获取utc时间，因为alertmanager添加静默规则的时间也是为utc时间。
